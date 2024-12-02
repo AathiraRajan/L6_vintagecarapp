@@ -20,7 +20,7 @@ const Edit = ({ navigation, route }) => {
         section.data = section.data.filter((car) => car.name !== initialName);
         navigation.navigate('Home');
     };
-
+//1
     return (
         <View style={styles.container}>
             <Text style={styles.label}>Edit Car Name:</Text>
